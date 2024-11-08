@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+main{
+  height: 100vh;
+  width: 100vw;
+}
+
+/*from here we start main section*/
+main{
+    height: 100%;
+    width: 100%;
+    background-image: url(img/camera-2.jpg);
+    overflow: hidden;
+}
+.storage
+{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;
+    border-radius:25%;
+}
+.storage .left-1{
+    height:75%;
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding: 20px;
+    
+}
+.left-1 .number{
+    height: 25%;
+    width: 100%;
+    background:transparent;
+    border: 1.6px solid red;
+    box-shadow: 0 0 25px rgb(234, 13, 13);
+    border-radius: 5px;
+}
+.number h3{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.number h2{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding-left: 0;
+    padding-top: 20px;
+}
+.left-1 .address{
+    height: 25%;
+    width:100%;
+    border: 1.6px solid red;
+    box-shadow: 0 0 25px rgb(234, 13, 13);
+    border-radius: 5px;
+}
+.address h3{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+}
+.address h4{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 400;  
+    padding-left: 25px;
+    padding-top: 16px;
+}
+.address h5{
+    text-align:center;
+    color: rgb(255, 255, 255);
+    padding-top:8px;
+
+}
+
+.left-1 .email{
+    height: 25%;
+    width:100%;
+    border: 1.6px solid red;
+    box-shadow: 0 0 25px rgb(234, 13, 13);
+    border-radius: 5px;
+}
+.email h3{
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+}
+.email h4{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding-left: 0;
+    padding-top: 20px;
+}
+.storage .right-1{
+    height:65%;
+    width:40%;
+    background-image: url(img/google-maps.jpg);
+    background-size: cover;
+    border-radius: 5%; 
+    border: 1.6px solid red;
+    box-shadow: 0 0 25px rgb(234, 13, 13);
+    cursor: pointer; 
+    z-index: 1;
+}
+ /* form here we start form section  */
+  .form-container{
+    height: 0;
+    margin-top: 0;
+    padding: 0;
+    background: transparent;
+    height:45rem;
+    width: 80%;
+    margin:5px 100px 25px;
+    border-radius: 20px;
+    border: 2px solid green;
+    box-shadow: 0 0 25px rgb(52, 220, 60);
+  }
+  .form-container .title{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 0px;
+    font-size:30px;
+    font-weight: 500;
+    color: #fff;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom:35px;
+  }
+  .form-container form .form-part{
+    background: transparent;
+    height:auto;
+    margin:15px;
+    padding:7px;
+    border-radius: 10px;
+    border: 2px solid red;
+    box-shadow: 0 0 30px rgb(234, 13, 13);
+  }
+  .form-container .input-sec{
+    padding: 10px;
+  }
+  .form-container .input-sec span,.dropdown{
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 0px;
+    color: rgb(249, 245, 245);
+  }
+  .form-part .input-sec input,select{
+    font-size:18px;
+    padding: 20px;
+    height: 35px;
+    width: 100%;
+    outline:none;
+    border-radius: 5px;
+    border:1.5px solid #ccc;
+  }
+.form-part .btn-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  .form-part .btn{
+    font-size:18px;
+    height: 35px;
+    width: 80%;
+    background-color: #fefcfc;
+    color: #4451e1;
+    border:1px solid #4451e1;
+    border-radius:5px;
+    text-align: center;
+    cursor: pointer;
+  }
+ /* end of form section  */
+
+
+/*from here we are starting footer section**/

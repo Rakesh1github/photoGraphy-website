@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* ----------text area for description---------- */
+body{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right, #00093c,#2d0b00);
+}
+   .text-area{
+    background: linear-gradient(to right, #00093c,#2d0b00);
+    height: 100%;
+    width: 100%;
+   }
+
+   
+.main-container{
+    height:100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-area .small-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    width:100%;
+    height:70vh;
+    margin: 50px;
+}
+.small-container h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    text-decoration-line: underline;
+    color: white;
+    
+}
+.text-area .main-container .text-container{
+    width: 70%;
+    height: 100%;
+    margin-bottom: 10px;
+    border: 2px solid green;
+    box-shadow: 0 0 25px rgb(234, 13, 13);
+    border-radius: 10px;
+}
+.text-container .para1
+{
+    padding: 8px 5px 0 5px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 200;
+    word-spacing: 10px;
+    letter-spacing:1px;
+    color:white;
+}
+.text-container .para2{
+    font-size: 15px;
+    font-weight: 200;
+    padding: 8px 5px 0 5px;
+       text-align: center;
+       word-spacing: 8px;
+       color: white;
+}
+
+.text-container .rating-reviews{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 25px;
+    margin:0px 20px 10px ;
+}
+.text-container .happy-customer h1{
+   font-size: 2.5rem;
+   color: #e01616;
+}
+.happy-customer h5{
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+@media  screen and (min-width:68px) {
+    .text-container .rating-reviews{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 10px;
+        margin:10px 20px 10px ;
+    }
+    .text-container .happy-customer h1{
+        font-size: 1.5rem;
+        color: #e01616;
+     }
+     .happy-customer h5{
+         font-size: 1rem;
+         font-style: italic;
+     }
+}
+
+@media(max-width:480px){
+    .text-container .rating-reviews{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 10px;
+        margin:10px 20px  10px;
+    }
+    .text-container .happy-customer h1{
+        font-size: 1rem;
+        color: #e01616;
+     }
+     .happy-customer h5{
+         font-size: 1rem;
+         font-style: italic;
+     }
+}
+/* ---------img section----- */
+
+.gallery-container{
+    position: relative;
+    background-color: white;
+    width: 60%;
+    padding: 10px;
+    display: grid;
+    grid-template-rows: repeat(3,250px);
+    grid-template-columns: repeat(3,1fr);
+    margin: 0 auto;
+    box-shadow:3 4 3px 0 greenyellow;
+}
+.gallery-item{
+    flex-basis: 28%;
+    margin-bottom: 6px;
+   cursor: pointer;
+}
+.gallery-item img{
+    width: 96%;
+    height:99%;
+    object-fit: cover;
+}
+  /* --------lightbox- */
+  .lightbox{
+    position: fixed;
+    display: none;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    top: 0;
+    left: 0;
+
+  }
+
+  .lightbox-content{
+    position: relative;
+    width: 65%;
+    height: 58%;
+    margin: 5% auto;
+  }
+  .lightbox-content img{
+    width: 100%;
+    height: 125%;
+    border: 6px solid white;
+    object-fit:cover;
+  }
+
+  .lightbox-prev,
+  .lightbox-next{
+    position: absolute;
+    background:rgba(207, 23, 23, 0.267);
+    color: rgb(25, 208, 208);
+    padding: 15px;
+    top: 45%;
+    cursor: pointer;
+  }
+
+  .lightbox-prev{
+    left: 0;
+  }
+  .lightbox-next{
+    right: 0;  
+  }
+
+  /* ----------MAKE IT RESPONSIVE --------- */
+  @media(max-width:767px) {
+    .gallery-container{
+        width:60%;
+       display: grid;
+       grid-template-rows: repeat(4,250px);
+       grid-template-columns: repeat(2,1fr);
+        
+    }
+    .gallery-item{
+        flex-basis: 49.80%;
+        margin-bottom: 3px;
+    }
+    .lightbox-content{
+        width:80%;
+        height:60%;
+        margin: 15% auto;
+    }
+  }
+
+  @media(max-width:480px){
+    .gallery-container{
+        width:100%;
+        display: grid;
+       grid-template-rows: repeat(9,250px);
+       grid-template-columns: repeat(1,1fr);
+       
+    }
+    .gallery-item{
+        flex-basis: 28%;
+        margin-bottom: 1px;
+    }
+    .lightbox-content{
+        width: 90%;
+        margin: 20px auto;
+    }
+}

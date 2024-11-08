@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+    <link rel="stylesheet" href="website.css">
+    <link rel="stylesheet" href="All_header_footer.css">
+    <script src="website.js" defer></script>
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"><img src="img/logo.jpg" style="height:70px; border-radius: 50%;">
+            <span class="logo-name">Apshra Studio</span>
+        </div>
+        <div class="menu-toggle">
+            <img src="icons/bars-solid.svg" class="sq-bar" height="25px">
+            <img src="icons/arrow-right-solid.svg" class="arrow-bar" height="25px">
+        </div> 
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#F&Q">FA&Q</a></li>
+            
+            <li class="social-icons">
+                <a href=""><img src="icons/instagram.svg" height="20px"></a>
+                <a href=""><img src="icons/linkedin.svg" height="20px"></a>
+                <a href=""><img src="icons/github.svg" height="20px"></a>
+        
+            </li>
+        
+        </ul>
+        </nav>
+            
+       <!--hero section-->
+    <div class="carousel">
+        <!-- list item -->
+        <div class="list">
+            <div class="item">
+                <img src="img/album-designers.jpg">
+                <div class="content">
+                    <div class="author">Photography By</div>
+                    <div class="title">Apshra Studio</div>
+                    <div class="topic">ALBUM DESIGNS</div>
+                    <div class="des">
+                        <!-- lorem 50 -->We offer you the variety of album designs & also cancavera Albums. <br>
+                        professional Wedding Album designers will make unique Wedding Albums.
+                    </div>    
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/pre2.jpg">
+                <div class="content">
+                    <div class="author">Photography By</div>
+                    <div class="title">Apshra Studio</div>
+                    <div class="topic">PRE-WEDDING SHOOT</div>
+                    <div class="des">
+                        The main aim of pre-wedding shoot is to get used to being in front of the camera,
+                        <br> build rapport with your Photographer,& receive a lovely set of romentic photos.
+                    </div>      
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="img/Baby-photoshoot-locations-in-Bangalore.jpg">
+                <div class="content">
+                    <div class="author">Photography By</div>
+                    <div class="title">Apshra Studio</div>
+                    <div class="topic">BABY PHOTOSHOOT</div>
+                    <div class="des">
+                        Contact us today for best Baby photography. <br> 
+                        Our professional Portfolio <br>
+                        Photographers will capture best Model Photoshoot
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="img/Product-Photoshoot2.jpg">
+                <div class="content">
+                    <div class="author">Photography By RAKESH</div>
+                    <div class="title">Apshra Studio</div>
+                    <div class="topic">E-COMM. PRODUCT PHOTOSHOOT</div>
+                    <div class="des">
+                        We provide best E-Commerce Photography and professional Products photography in Jharkhand. <br> Contact Us Today!
+                    </div>  
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/cameraH.jpg">
+                <div class="content">
+                    <div class="author">Photography By</div>
+                    <div class="title">APSHRA STUDIO</div>
+                    <div class="topic">RAKESH</div>
+                    <div class="des">
+                        The mission of Apshra Photographers is just not to snap but to create a beautiful story filled
+                        with joy and emotions that creates lasting memories with passion and excitement, and every 
+                        guest in a family like manner.
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <!-- list thumnail -->
+        <div class="thumbnail">
+            <div class="item">
+                <img src="img/album-designers.jpg">
+                <div class="content">
+                    <div class="title">
+                        ALBUM DESIGNS
+                    </div>
+                    <div class="description">
+                        Description
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/pre2.jpg">
+                <div class="content">
+                    <div class="title">
+                        PRE-WEDDING SHOOT
+                    </div>
+                    <div class="description">
+                        Description
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/Baby-photoshoot-locations-in-Bangalore.jpg">
+                <div class="content">
+                    <div class="title">
+                        BABY PHOTOSHOOT
+                    </div>
+                    <div class="description">
+                        Description
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/Product-Photoshoot2.jpg">
+                <div class="content">
+                    <div class="title">
+                        E-Comm. PRODUCT PHOTOSHOOT
+                    </div>
+                    <div class="description">
+                        Description
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/cameraH.jpg">
+                <div class="content">
+                    <div class="title">
+                        OWNER DESCRIPTION
+                    </div>
+                    <div class="description">
+                        Description
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- next prev -->
+
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+        <!-- time running -->
+        <div class="time"></div>
+    </div>
+    <!-- -------end of hero sectio---- -->
+
+         <div class="heading">
+            <h2>SERVICES FROM :-"A-STUDIO"</h2>
+         </div>
+
+         <!-- ----------responsive card section-------- -->
+    <div class="card-container">
+        <div class="card">
+            <article class="card-article">
+                <img src="img/pre2.jpg" alt="" class="card-img">
+                <div class="card-data">
+                    <span class="card-details">PRE-WEDDING PHOTOGRAPHY</span>
+                    <h2 class="card-title">The main aim of pre-wedding shoot is to get used to being in front of the camera,
+                        build rapport with your Photographer,& receive a lovely set of romentic photos.</h2>
+                    <a href="PreWedding.html" class="card-btn">Read more</a>
+                </div>
+            </article>
+            <article class="card-article">
+                <img src="img/Wedding_Photography.jpeg" alt="" class="card-img">
+                <div class="card-data">
+                    <span class="card-details">WEDDING PHOTOGRAPHY</span>
+                    <h2 class="card-title">Focus on posed and formal portraits of the couple, their families,and the Wedding party.</h2>
+                    <a href="weddingPage.html" class="card-btn">Read more</a>
+                </div>
+            </article>
+            <article class="card-article">
+                <img src="img/ring.jpg"alt="" class="card-img">
+                <div class="card-data">
+                    <span class="card-details">ENGAGEMENT CEREMONY</span>
+                    <h2 class="card-title">In Engagement photography captures each special moments of Engagement:the set-up,the decor,
+                        friends & familes are involved.
+                    </h2>
+                    <a href="" class="card-btn">Read more</a>
+                </div>
+            </article>
+            <article class="card-article">
+                <img src="img/Event-Photographers-near-me.jpg" alt="" class="card-img">
+                <div class="card-data">
+                    <span class="card-details">EVENT PHOTOSHOOT</span>
+                    <h2 class="card-title">Contact us for best event photoshoot that captures best memories with quality images.
+                        Get event Photography price and packages today!
+                    </h2>
+                    <a href="event.html" class="card-btn">Read more</a>
+                </div>
+            </article>
+            <article class="card-article">
+                <img src="img/baby1.jpg" alt="" class="card-img">
+                <div class="card-data">
+                    <span class="card-details">MATERNITY PHOTOSHOOT</span>
+                    <h2 class="card-title">we have the professionals to capture your beautiful moments of pregnacy 
+                        Photoshoot & turn them into Best Maternity Photoshoot in Jharkhand.</h2>
+                    <a href="" class="card-btn">Read more</a>
+                </div>
+            </article>
+            <article class="card-article">
+                <img src="img/pre1.jpg" alt="" class="card-img">
+                <div class="card-data">
+                    <span class="card-details">PORTFOLIO SHOOT</span>
+                    <h2 class="card-title">Contact us today for best Model photography.Our professional Portfolio
+                        Photographers will capture best Model Photoshoot
+                    </h2>
+                    <a href="portfoliPage.html" class="card-btn">Read more</a>
+                </div>
+            </article>
+            
+            <article class="card-article">
+                <img src="img/Birthday.jpg" alt="" class="card-img">
+                <div class="card-data">
+                    <span class="card-details">BIRTHDAY SHOOT</span>
+                    <h2 class="card-title">capture the special moments of your Birthday party with a professional 
+                        Birthday photography.Contact us for Birthday Photoshoot package.
+                    </h2>
+                    <a href="" class="card-btn">Read more</a>
+                </div>
+            </article>
+           
+            <article class="card-article">
+                <img src="img/Product-Photoshoot2.jpg" alt="product-img" class="card-img">
+                <div class="card-data">
+                    <span class="card-details">E-COMMERCE PRO. SHOOT</span>
+                    <h2 class="card-title">We provide best E-Commerce Photography and professional Products photography in Jharkhand. <br> Contact Us Today!
+                    </h2>
+                    <a href="" class="card-btn">Read more</a>
+                </div>
+            </article>
+            <article class="card-article">
+                <img src="img/frame.jpg" alt="" class="card-img">
+                <div class="card-data">
+                    <span class="card-details">PHOTOS FRAME</span>
+                    <h2 class="card-title">We Jharkhand Photographers offer various types of photography frames.
+                        Contact Us today for for more information about Good quality photo frames in Jharkhand. 
+                    </h2>
+                    <a href="" class="card-btn">Read more</a>
+                </div>
+            </article>
+            <article class="card-article">
+                <img src="img/cuple.jpg" alt="" class="card-img">
+                <div class="card-data">
+                    <span class="card-details">CUPLE PHOTOSHOOT</span>
+                    <h2 class="card-title">Contact us today for best Cuples photography.Our professional Portfolio
+                        Photographers will capture best Model Photoshoot
+                    </h2>
+                    <a href="" class="card-btn">Read more</a>
+                </div>
+            </article>
+            <article class="card-article">
+                <img src="img/album-designers.jpg" alt="" class="card-img">
+                <div class="card-data">
+                    <span class="card-details">ALBUM DESIGNS</span>
+                    <h2 class="card-title">We offer you the variety of album designs & also cancavera Albums.
+                        professional Wedding Album designers will make unique Wedding Albums.
+                    </h2>
+                    <a href="" class="card-btn">Read more</a>
+                </div>
+            </article>
+            <article class="card-article">
+                <img src="img/Baby-photoshoot-locations-in-Bangalore.jpg" alt="" class="card-img">
+                <div class="card-data">
+                    <span class="card-details">BABY PHOTOSHOOT</span>
+                    <h2 class="card-title">Contact us today for best Baby photography.Our professional Portfolio
+                        Photographers will capture best Model Photoshoot
+                    </h2>
+                    <a href="babbyPhotoshoot.html" class="card-btn">Read more</a>
+                </div>
+            </article>
+        </card>
+     </div>
+         <!-- ----------End of responsive card section-------- -->
+
+         <!-- -----------start Footer Section--------- -->
+       <footer>
+        <div class="content">
+            <div class="top">
+                <div class="logo-details">
+                    <img src="img/logo.jpg" alt="" class="icon-a">
+                    <span class="logo-name">Apshra Studio</span>
+
+                </div>
+            
+                <div class="media-icons">
+                <a href=""><img src="icons/github.svg"  class="icon1">
+                </a>
+                <a href=""><img src="icons/linkedin.svg"  class="icon1">
+                </a>
+                <a href=""><img src="icons/instagram.svg"  class="icon1">
+                </a>
+                <a href=""><img src="icons/phone-solid.svg"  class="icon1">
+                </a>
+               </div>
+         </div>
+         <div class="line-boxes">
+            <ul class="box">
+                If you are searching for best Photographers in Jharkhand,contact Apshra Studio.we are the proficient
+                team offering an array of services ranging from protratits to commercial products, from events
+                like-weddings,fashion photography, family reunions,cinematography and more.
+                </ul>
+                <ul class="box">
+                    <li class="link-name">Quick Links</li>
+                    <li><a href="website.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="">F&Q</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Terms & Conditions</a></li>
+                    </ul>
+                    <ul class="box">
+                        <li class="link-name">Top Categories</li>
+                        <li><a href="weddingPage.html">Wedding Photographer</a></li>
+                        <li><a href="PreWedding.html">Pre-Wedding Photoshoot</a></li>
+                        <li><a href="maternaity.html">Maternity Photoshoot</a></li>
+                        <li><a href="babbyPhotoshoot.html">Baby Shower Photography</a></li>
+                        <li><a href="event.html">Event Photographer</a></li>
+                        <li><a href="portfoliPage.html">Portfolio Shoot</a></li>
+                    </ul>
+                    
+                            <ul class="box input-box">
+                                <li class="link-name">Connect Through</li>
+                                <li><input type="email" placeholder="Enter your E-mail"></li>
+                                <li><input type="button" value="submit"></li>
+                            </ul>
+         </div>
+        </div>
+    </footer>
+
+</body>
+</html>

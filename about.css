@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+    text-decoration: none;
+    list-style: none;
+}
+.logo-icon-a{
+    width: 70px;
+    border-radius: 50%;
+}
+.icons{
+    height:25px;
+}
+/* ---------------------start main section--  */
+main{
+    height: 100%;
+    width: 100%;
+}
+.main-container{
+    height:100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #00093c,#2d0b00);
+}
+
+main .small-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    color: white;
+    width:60%;
+    height:70vh;
+    /* border: 1px solid red; */
+    margin: 50px;
+}
+.small-container h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    text-decoration-line: underline;
+    
+}
+main .main-container .text-container{
+    width: 80%;
+    height: 100%;
+    margin-bottom: 10px;
+    border: 1px solid green;
+    box-shadow: 0 0 25px rgb(234, 13, 13);
+ border-radius: 10px;
+}
+.text-container .para1
+{
+    padding: 8px 5px 0 5px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 200;
+    word-spacing: 10px;
+}
+.text-container .para2{
+    font-size: 15px;
+    font-weight: 200;
+    padding: 8px 5px 0 5px;
+       text-align: center;
+       word-spacing: 8px;
+}
+
+
+/* ---HEADER AND FOOTER SECTION ARE NEXT PAGE-  */
