@@ -1,1 +1,1 @@
-# photoGraphy-website
+# PHOTOGRAPHY BOOKING WEBSITE
